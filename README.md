@@ -10,7 +10,7 @@ npm i laselector
 
 ## Usage
 ```
-const { selectLanguage } = require('laselector');
+const { selectLanguage } = require('laselector')
 // import { selectLanguage } from 'laselector'
 
 // define `languages`
