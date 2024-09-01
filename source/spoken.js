@@ -1,6 +1,6 @@
-export { official }
+export { spoken }
 
-const official = {
+const spoken = {
   'ad': [ 'ca' ],
   'ae': [ 'ar-ae' ],
   'af': [ 'fa-af', 'ps-af' ],
@@ -44,7 +44,7 @@ const official = {
   'cd': [ 'fr-cd' ],
   'cf': [ 'fr-cf', 'sg' ],
   'cg': [ 'fr-cg' ],
-  'ch': [ 'de-ch', 'fr-ch', 'it-ch', 'rm' ],
+  'ch': [ 'de-ch', 'fr-ch', 'it-ch' ],
   'ci': [ 'fr-ci' ],
   'ck': [ 'en-ck' ],
   'cl': [ 'es-cl' ],
