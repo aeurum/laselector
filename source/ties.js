@@ -192,6 +192,7 @@ const ties = {
   'qxu':    [ 'es' ],
   'rar':    [ 'en' ],
   'rcf':    [ 'fr' ],
+  'rm':     [ 'de', 'fr', 'it' ],
   'rn':     [ 'fr' ],
   'ro-md':  [ 'ru' ],
   'rwr':    [ 'hi' ],
