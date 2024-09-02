@@ -161,7 +161,7 @@ const spoken = {
   'mx': [ 'es-mx' ],
   'my': [ 'ms-my' ],
   'mz': [ 'pt-mz' ],
-  'na': [ 'en-na' ],
+  'na': [ 'en-na', 'af' ],
   'nc': [ 'fr-nc' ],
   'ne': [ 'fr-ne' ],
   'nf': [ 'en-nf' ],
