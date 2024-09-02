@@ -1,6 +1,6 @@
 import { iso639 } from './iso639'
 import { ties } from './ties'
-import { official } from './official'
+import { spoken } from './spoken'
 
 export { selectLanguage }
 
@@ -19,12 +19,12 @@ function crack(tag) {
 function primary(tag) {
   return crack(tag)[0]
 }
-function fetch(subtags, outof = official) {
+function fetch(subtags, outof = spoken) {
   for (const subtag of subtags) if (outof[subtag]) return outof[subtag]
 }
 
 function tieTag(tag, sub, suptags, supsubs, languages) {
-  const tags = ties[tag] ?? [ ]
+  const tags = ties[tag] ?? ties[sub] ?? [ ]
   return getSupported(tags, suptags, languages) ??
     getSupported(primarize(tags), supsubs, languages)
 }
