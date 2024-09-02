@@ -15,33 +15,33 @@ const { selectLanguage } = require('laselector')
 
 // define `languages`
 const languages = {
-  default: 'ja',
+  default: 'it',
   supported: [
-    'ja',
+    'it',
     'fr',
+    'nl',
     'da',
     'wal',
-    'tr',
-    'tr-CY',
-    'en-GB',
-    'ru-RU',
     'es-MX',
-    'pt-PT'
+    'pt-PT',
+    'ru-RU',
+    'tr',
+    'tr-CY'
   ]
 }
 
 for (const tag of [
-  null,             // ja
+  null,             // it
   'nob',            // da
   'wal',            // wal
   'pt',             // pt-PT
   'pt-PT',          // pt-PT
   'pt-BR',          // pt-PT
-  'it',             // ja
-  'it-CH',          // fr
+  'de',             // it
+  'de-CH',          // fr
   'tr',             // tr
   'tur-CY',         // tr-CY
-  'ro',             // ja
+  'ro',             // it
   'ro-MD',          // ru-RU
   'ru',             // ru-RU
   'rus',            // ru-RU
@@ -49,11 +49,10 @@ for (const tag of [
   'uk',             // ru-RU
   'kk-KZ',          // ru-RU
   'fr',             // fr
-  'ar',             // ja
-  'ar-EG',          // ja
+  'ar',             // it
+  'ar-EG',          // it
   'ar-MA',          // fr
-  'en',             // en-GB
-  'af-ZA',          // en-GB
+  'af-ZA',          // nl
   'ca',             // es-MX
   'ca-ES-VALENCIA'  // es-MX
 ]) console.log(`${tag} => ${selectLanguage(tag, languages)}`)
