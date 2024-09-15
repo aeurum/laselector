@@ -1,7 +1,7 @@
 {
   "name": "laselector",
-  "version": "1.0.4",
-  "description": "language selector",
+  "version": "1.0.5",
+  "description": "Select the most suitable language based on the IETF language tag.",
   "main": "dist/cjs/main.js",
   "module": "dist/mjs/main.js",
   "exports": {
